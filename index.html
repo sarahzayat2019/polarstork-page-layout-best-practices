@@ -35,19 +35,31 @@
 		<nav>
 			<ul>
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
+					<a href="/index.html">Basic Link(home)</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
+					<a href="/contact-us.html">Basic Link(contact us)</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/contact-us.html">contact-us</a>
+					<a href="/contact-us.html" target="_blank">Open link in new window (contact us)</a>
+				</li>
+				<li class="nav-item">
+					<a href="mailto:sarah@polarstork.com?subject=I love your work!">Email Sarah!</a>
+				</li>
+				<li class="nav-item">
+					<a href="tel:54154555">call Sarah!</a>
+				</li>
+				<li class="nav-item">
+					<a href="tel:54154555">call Sarah!</a>
+				</li>
+				<li>
+					<a href="http://www.google.com/.../logo2w.png" download="mylogo">download me</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
-	<main>
-		<section>
+	<main class="home-page">
+		<section class="carousel">
 			carousel section
 			<div class="carousel-item">
 				1
@@ -61,8 +73,11 @@
 		</section>
 		<section>
 			<h1>Best practices of HTML5 page layout </h1>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-				industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+			<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+				has been the
+				industry's standard dummy text ever <span class="marked"> since the 1500s</span>, when an unknown
+				printer
+				took a galley of type and
 				scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
 				into electronic typesetting, remaining essentially unchanged. </p>
 		</section>
@@ -76,7 +91,7 @@
 			</figure>
 		</section>
 		<section class="news">
-			<h2>News</h2>
+			<h2>Latest News</h2>
 			<article>
 				<h3>Game of thrones cast</h3>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -87,6 +102,13 @@
 			</article>
 		</section>
 	</main>
+	<aside>
+		<p>The HTML5 aside tag shows contents separately next to the main content, such as a paragraph,
+			at either the
+			right side or the left side. The contents inside the aside tag, usually has contents that are related to the
+			main content. You can actually add a few extra lines to explain briefly, what’s inside the
+			main content.</p>
+	</aside>
 	<footer>
 		<address>
 			<p>Provided by
@@ -96,8 +118,20 @@
 				<a href="www.theCreativePeople.com">visit his website</a>
 			</p>
 		</address>
+		<nav>
+			<ul>
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/contact-us.html">contact us</a>
+				</li>
+			</ul>
+		</nav>
 	</footer>
-
 </body>
 
 </html>
